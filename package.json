@@ -11,7 +11,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,6 +29,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage" : "http://fsanchezvilela.github.io/pokedex"
-  
+  "homepage": "http://fsanchezvilela.github.io/pokedex",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
